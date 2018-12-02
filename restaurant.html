@@ -31,28 +31,32 @@
 
   <!-- Beginning main -->
   <main id="maincontent">
-    <!-- Beginning map -->
-    <section role="application" aria-label="Map with restaurants" id="map-container">
-      <div role="application" aria-label="Map with restaurants" id="map"></div>
-    </section>
-    <!-- End map -->
-    <!-- Beginning restaurant -->
-    <section id="restaurant-container">
-      <div> 
-        <h2 id="restaurant-name"></h2>
-        <img id="restaurant-img" alt="Image of the scence inside of the restaurant">
-        <p id="restaurant-cuisine"></p>
-        <p id="restaurant-address"></p>
-        <table id="restaurant-hours"></table>
+    <div class="container">
+      <!-- Beginning map -->
+      <div class="item">
+        <section role="application" aria-label="Map with restaurants" id="map-container">
+          <div role="application" aria-label="Map with restaurants" id="map"></div>
+        </section>
       </div>
-      
-      
-    </section>
-    <!-- end restaurant -->
-    <!-- Beginning reviews -->
-    <section id="reviews-container">
-      <ul id="reviews-list"></ul>
-    </section>
+      <!-- End map -->
+      <!-- Beginning restaurant -->
+      <div class="item">
+        <section id="restaurant-container">
+            <h2 id="restaurant-name"></h2>
+            <img id="restaurant-img" alt="Image of the scence inside of the restaurant">
+            <p id="restaurant-cuisine"></p>
+            <p id="restaurant-address"></p>
+            <table id="restaurant-hours"></table>
+        </section>
+      </div>
+      <!-- end restaurant -->
+      <!-- Beginning reviews -->
+      <div class="item">
+        <section id="reviews-container">
+          <ul id="reviews-list"></ul>
+        </section>
+      </div>
+    </div>
     <!-- End reviews -->
   </main>
   <!-- End main -->
